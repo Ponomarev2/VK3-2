@@ -1,12 +1,12 @@
 {
-  "homepage": "http://machalkas.github.io/VkHakatonWeb",
+  "homepage": "http://Ponomarev2.github.io/VK3-2",
   "name": "kozodoi-club-hack",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "cross-env PORT=10888 react-scripts start",
     "build": "react-scripts build",
-    "surge-deploy": "npm run build && surge ./build --domain kozodoi-club-hack.surge.sh",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
