@@ -7,7 +7,7 @@
   "scripts": {
     "start": "cross-env PORT=10888 react-scripts start",
     "build": "react-scripts build",
-	"predeploy": "npm run build && surge ./build --domain kozodoi-club-hack.surge.sh",
+	"predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
   "keywords": [],
